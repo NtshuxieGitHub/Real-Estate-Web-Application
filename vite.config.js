@@ -9,4 +9,7 @@ export default defineConfig({
       plugins: [tailwindcss()],
     },
   },
+  build: {
+    outDir: "dist/client", // Ensure output is directed here
+  },
 });
